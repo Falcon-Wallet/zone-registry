@@ -1,0 +1,9 @@
+{
+  "denom": "ujuno",
+  "limit": 500000,
+  "price": {
+    "low": 1000,
+    "average": 2500,
+    "high": 4000
+  }
+}
