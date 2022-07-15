@@ -1,0 +1,10 @@
+{
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "rowan",
+        "fixed_min_gas_price": 1000000000000
+      }
+    ]
+  }
+}
