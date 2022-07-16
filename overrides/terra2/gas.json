@@ -1,0 +1,9 @@
+{
+  "denom": "uluna",
+  "limit": 80000,
+  "price": {
+    "low": 5,
+    "average": 15,
+    "high": 25
+  }
+}

@@ -2,8 +2,8 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "ustars",
-        "fixed_min_gas_price": 10000
+        "denom": "uluna",
+        "fixed_min_gas_price": 10
       }
     ]
   }

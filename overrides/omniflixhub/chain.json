@@ -1,0 +1,10 @@
+{
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uflix",
+        "fixed_min_gas_price": 1
+      }
+    ]
+  }
+}

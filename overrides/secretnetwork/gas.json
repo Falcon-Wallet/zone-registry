@@ -2,8 +2,8 @@
   "denom": "uscrt",
   "limit": 20000,
   "price": {
-    "low": 1250,
-    "average": 10000,
-    "high": 25000
+    "low": 12500,
+    "average": 100000,
+    "high": 250000,
   }
 }
