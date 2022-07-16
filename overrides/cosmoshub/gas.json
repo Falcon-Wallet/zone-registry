@@ -1,0 +1,9 @@
+{
+  "denom": "uatom",
+  "limit": 80000,
+  "price": {
+    "low": 800,
+    "average": 2000,
+    "high": 3200
+  }
+}

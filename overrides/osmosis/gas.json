@@ -2,7 +2,7 @@
   "denom": "uosmo",
   "limit": 100000,
   "price": {
-    "low": 12000,
+    "low": 10000,
     "average": 25000,
     "high": 40000
   }
