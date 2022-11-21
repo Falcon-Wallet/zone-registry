@@ -22,6 +22,40 @@
         "png": "https://raw.githubusercontent.com/Falcon-Wallet/zone-registry/master/overrides/sei/images/sei.png"
       },
       "coingecko_id": "sei"
+    },
+    {
+      "description": "AUSDC Stable Coin",
+      "denom_units": [
+        {
+          "denom": "USDC",
+          "exponent": 0
+        },
+        {
+          "denom": "aUSDC",
+          "exponent": 6
+        }
+      ],
+      "base": "aUSDC",
+      "name": "aUSDC",
+      "display": "aUSDC",
+      "symbol": "aUSDC",
+      "logo_URIs": {},
+      "coingecko_id": "usd-coin"
+    },
+    {
+      "description": "UST2 Coin",
+      "denom_units": [
+        {
+          "denom": "UST2",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/sei1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjqpeheyc/uust2",
+      "name": "UST2",
+      "display": "UST2",
+      "symbol": "UST2",
+      "logo_URIs": {},
+      "coingecko_id": "usd-coin"
     }
   ]
 }
