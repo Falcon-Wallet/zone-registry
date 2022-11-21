@@ -1,0 +1,51 @@
+{
+  "$schema": "../../chain-registry/chain.schema.json",
+  "chain_name": "sei testnet",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "Sei Network",
+  "chain_id": "atlantic-1",
+  "daemon_name": "seid",
+  "node_home": "$HOME/.sei",
+  "bech32_prefix": "sei",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "usei",
+        "fixed_min_gas_price": 0
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sei-chain-incentivized.com/sei-chain-tm/",
+        "provider": "Sei"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sei-chain-incentivized.com/sei-chain-app",
+        "provider": "Sei"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorers-guru",
+      "url": "https://sei.explorers.guru",
+      "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+    }
+  ],
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/Falcon-Wallet/zone-registry/master/main/overrides/sei/images/sei.png"
+  }
+}
