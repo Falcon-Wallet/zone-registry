@@ -44,5 +44,8 @@
       "url": "https://sei.explorers.guru",
       "tx_page": "https://sei.explorers.guru/tx/${txHash}"
     }
-  ]
+  ],
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/Falcon-Wallet/zone-registry/master/main/overrides/sei/images/sei.png"
+  }
 }
