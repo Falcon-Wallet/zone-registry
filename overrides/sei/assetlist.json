@@ -27,11 +27,11 @@
       "description": "AUSDC Stable Coin",
       "denom_units": [
         {
-          "denom": "USDC",
+          "denom": "ausdc",
           "exponent": 0
         },
         {
-          "denom": "aUSDC",
+          "denom": "uausdc",
           "exponent": 6
         }
       ],
@@ -46,16 +46,21 @@
       "description": "UST2 Coin",
       "denom_units": [
         {
-          "denom": "UST2",
+          "aliases": ["UST2"],
+          "denom": "factory/sei1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjqpeheyc/uust2",
+          "exponent": 0
+        },
+        {
+          "aliases": ["UST2"],
+          "denom": "factory/sei1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjqpeheyc/uust2",
           "exponent": 6
         }
       ],
-      "base": "factory/sei1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjqpeheyc/uust2",
+      "base": "UST2",
       "name": "UST2",
       "display": "UST2",
       "symbol": "UST2",
-      "logo_URIs": {},
-      "coingecko_id": "usd-coin"
+      "logo_URIs": {}
     }
   ]
 }
