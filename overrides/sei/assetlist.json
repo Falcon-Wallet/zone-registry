@@ -61,6 +61,21 @@
       "display": "UST2",
       "symbol": "UST2",
       "logo_URIs": {}
+    },
+    {
+      "description": "uCELER",
+      "denom_units": [
+        {
+          "aliases": ["uCELER"],
+          "denom": "factory/sei174t9p63nzlmsycmd9x9zxx3ejq9lp2y9f69rp9/uceler",
+          "exponent": 6
+        }
+      ],
+      "base": "uCELER",
+      "name": "uCELER",
+      "display": "uCELER",
+      "symbol": "uCELER",
+      "logo_URIs": {}
     }
   ]
 }
