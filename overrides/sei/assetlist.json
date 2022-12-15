@@ -63,19 +63,25 @@
       "logo_URIs": {}
     },
     {
-      "description": "uCELER",
+      "description": "Celer",
       "denom_units": [
         {
-          "aliases": ["uCELER"],
+          "aliases": ["Celer"],
+          "denom": "factory/sei174t9p63nzlmsycmd9x9zxx3ejq9lp2y9f69rp9/uceler",
+          "exponent": 0
+        },
+        {
+          "aliases": ["uCeler"],
           "denom": "factory/sei174t9p63nzlmsycmd9x9zxx3ejq9lp2y9f69rp9/uceler",
           "exponent": 6
         }
       ],
-      "base": "uCELER",
-      "name": "uCELER",
-      "display": "uCELER",
-      "symbol": "uCELER",
+      "base": "uCeler",
+      "name": "Celer",
+      "display": "Celer",
+      "symbol": "Celer",
       "logo_URIs": {}
     }
   ]
 }
+
