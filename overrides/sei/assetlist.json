@@ -61,6 +61,26 @@
       "display": "UST2",
       "symbol": "UST2",
       "logo_URIs": {}
+    },
+    {
+      "description": "Celer",
+      "denom_units": [
+        {
+          "aliases": ["Celer"],
+          "denom": "factory/sei174t9p63nzlmsycmd9x9zxx3ejq9lp2y9f69rp9/uceler",
+          "exponent": 0
+        },
+        {
+          "aliases": ["uCeler"],
+          "denom": "factory/sei174t9p63nzlmsycmd9x9zxx3ejq9lp2y9f69rp9/uceler",
+          "exponent": 6
+        }
+      ],
+      "base": "uCeler",
+      "name": "Celer",
+      "display": "Celer",
+      "symbol": "Celer",
+      "logo_URIs": {}
     }
   ]
 }
