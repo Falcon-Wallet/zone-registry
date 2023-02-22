@@ -1,0 +1,9 @@
+{
+  "denom": "usei",
+  "limit": 1000,
+  "price": {
+    "low": 150,
+    "average": 500,
+    "high": 1000
+  }
+}
