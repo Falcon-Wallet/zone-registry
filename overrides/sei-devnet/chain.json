@@ -3,7 +3,7 @@
   "chain_name": "sei-devnet-3",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "Sei Network",
+  "pretty_name": "Sei Devnet 3",
   "chain_id": "sei-devnet-3",
   "daemon_name": "seid",
   "node_home": "$HOME/.sei",
