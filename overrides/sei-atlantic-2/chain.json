@@ -1,0 +1,51 @@
+{
+  "$schema": "../../chain-registry/chain.schema.json",
+  "chain_name": "sei-devnet-3",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "Sei Atlantic 2",
+  "chain_id": "sei-atlantic-2",
+  "daemon_name": "seid",
+  "node_home": "$HOME/.sei",
+  "bech32_prefix": "sei",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "usei",
+        "fixed_min_gas_price": 0
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.atlantic-2.seinetwork.io/",
+        "provider": "Sei"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.atlantic-2.seinetwork.io/",
+        "provider": "Sei"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "explorers-guru",
+      "url": "https://sei.explorers.guru",
+      "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+    }
+  ],
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/Falcon-Wallet/zone-registry/master/main/overrides/sei-atlantic-2/images/sei.png"
+  }
+}
