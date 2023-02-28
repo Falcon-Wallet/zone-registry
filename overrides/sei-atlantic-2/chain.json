@@ -1,10 +1,10 @@
 {
   "$schema": "../../chain-registry/chain.schema.json",
-  "chain_name": "sei-devnet-3",
+  "chain_name": "Sei Atlantic 2",
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Sei Atlantic 2",
-  "chain_id": "sei-atlantic-2",
+  "chain_id": "atlantic-2",
   "daemon_name": "seid",
   "node_home": "$HOME/.sei",
   "bech32_prefix": "sei",

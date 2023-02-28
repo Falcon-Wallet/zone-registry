@@ -1,6 +1,6 @@
 {
   "$schema": "../../chain-registry/assetlist.schema.json",
-  "chain_name": "sei-devnet-3",
+  "chain_name": "atlantic-2",
   "assets": [
     {
       "description": "The native staking and governance token of the Sei network.",
