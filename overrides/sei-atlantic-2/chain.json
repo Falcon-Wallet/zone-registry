@@ -1,10 +1,10 @@
 {
   "$schema": "../../chain-registry/chain.schema.json",
-  "chain_name": "sei-devnet-3",
+  "chain_name": "Sei Atlantic 2",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "Sei Devnet 3",
-  "chain_id": "sei-devnet-3",
+  "pretty_name": "Sei Atlantic 2",
+  "chain_id": "atlantic-2",
   "daemon_name": "seid",
   "node_home": "$HOME/.sei",
   "bech32_prefix": "sei",
@@ -27,13 +27,13 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.sei-devnet-3.seinetwork.io/",
+        "address": "https://rpc.atlantic-2.seinetwork.io/",
         "provider": "Sei"
       }
     ],
     "rest": [
       {
-        "address": "https://rest.sei-devnet-3.seinetwork.io/",
+        "address": "https://rest.atlantic-2.seinetwork.io/",
         "provider": "Sei"
       }
     ]
@@ -46,6 +46,6 @@
     }
   ],
   "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/Falcon-Wallet/zone-registry/master/main/overrides/sei-devnet/images/sei.png"
+    "png": "https://raw.githubusercontent.com/Falcon-Wallet/zone-registry/master/main/overrides/sei-atlantic-2/images/sei.png"
   }
 }
